@@ -1,0 +1,101 @@
+body{
+    color: #fff;
+    background-color: black;
+}
+
+.heading{
+    font-weight: 300px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:lime;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300px;
+    text-align: center;
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.input-div .input{
+    padding: 0.5rem 1rem;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    width: 450px;
+    margin: 0.25rem;
+    border-radius: 25px;
+    font-size: 1.15rem;
+
+}
+.addbutton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 0.25rem;
+    color: #fff;
+    background-color: lime;
+    cursor: pointer;
+}
+.addbutton:hover{
+    opacity: 0.7;
+}
+
+.btn{
+    height: 30px;
+    width: 70px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-left:  60px ;
+    color: #fff;
+    background-color: lime;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.delAll{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 0.25rem;
+    color: #fff;
+    background-color: lime;
+    cursor: pointer;
+
+}
+.delAll:hover{
+    opacity: 0.7;
+}
+.cont ul li{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.edit{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 0.25rem;
+    color: #fff;
+    background-color: lime;
+    cursor: pointer;
+}

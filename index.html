@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1><span class="heading"> TODO </span> List </h1>
+
+    <div class="input-div" >
+     <input class="input" type="text" id="todo_item" placeholder="What Do You Want To Do..." >
+     <button class="addbutton" onclick="addtodo()"> <i class="fa fa-plus" ></i> </button>
+    <button class="delAll" onclick="deleteAll()"  >  <i class="fa fa-trash-o" aria-hidden="true"></i>
+    </button>
+    </div>
+
+    <div class="cont" >
+        <ul id="list">
+   
+        </ul>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
